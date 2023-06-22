@@ -11,3 +11,7 @@ a{
     font-weight: 400;
     box-sizing: border-box;
 }
+
+.header{
+    background-color: aqua;
+}
