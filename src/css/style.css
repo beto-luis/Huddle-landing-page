@@ -6,41 +6,84 @@ html{
     font-size: 62.5%;
 }
 
-body{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.6rem;
-}
-
 main{
     background: url(../images/bg-desktop.svg) no-repeat center center;
     background-color: var(--Violet);
     background-size: contain;
-    height: 100vh;
-    width: 100vw;
 }
 
 .container{
-    display: grid;
-    grid-template-areas: "header header"
-                         "illustration info"
-                         "social social";
+    display: flex;
 }
 
 .header{
     grid-area: header;
 }
 
+.header .logo{
+    width: 210px;
+    margin: 44px 70px;
+}
+
 .illustration{
-    
     grid-area: illustration;
 }
 
-.info{
+.illustration .illustration-mockups{
     
-    grid-area: info;
 }
 
-.social{
-    background-color: green;
-    grid-area: social;
+.info{
+    grid-area: info;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.info h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
+    margin-bottom: 20px;
+    
+}
+
+.info p{
+    font-family: 'Open sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 26px;
+    margin-bottom: 26px;
+}
+
+.info .btn-register{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--Violet);
+    padding: 15px 65px;
+    align-self: self-start;
+    border-radius: 30px;
+}
+
+ .footer .social{
+    display: flex;
+    justify-content: end;
+    padding: 30px 100px;
+}
+
+ .footer .social{
+    font-size: 16px;
+}
+
+.footer .social a{
+    margin: 10px;
+    border-radius: 50%;
+    translate: -50%;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+.footer .social a i{
+    color: #fff;
 }
