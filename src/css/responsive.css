@@ -1,0 +1,69 @@
+
+@media(max-width:375px){
+    main{
+        background: url(../images/bg-mobile.svg) no-repeat;
+        background-color: var(--Violet);
+        background-size: contain;
+    }
+
+    .header .logo{
+        width: 130px;
+        margin-left: 25px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+    }
+
+    .container .illustration .illustration-mockups{
+        width: 100%;
+        height: 100%;
+    }
+
+    .container .info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .container .info .btn-register{
+        align-self: center;
+        padding: 8px 65px;
+        font-size: 1.6rem;
+    }
+
+    .container .info h1{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .container .info p{
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer .social a{
+        width: 14px;
+        height: 14px;
+    }
+
+    .fa-instagram{
+        font-size: 16px;
+    }
+    
+    .fa-twitter{
+        font-size: 14px;
+    }
+    
+    .fa-facebook-f{
+        font-size: 14px;
+    }
+}
