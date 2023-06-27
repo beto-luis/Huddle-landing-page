@@ -18,7 +18,7 @@ Apply the knowledge obtained through the available classes, with the objective o
 
 ### Link
 
-[Solution]((https://beto-luis.github.io/Huddle-landing-page/)target="_blank"))
+[Solution](https://beto-luis.github.io/Huddle-landing-page/)
 
 ### Applied technologies
 
