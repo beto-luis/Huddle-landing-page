@@ -8,7 +8,19 @@
 
 Thanks for checking my front-end coding challenge.
 
-## Applied technologies
+## Overview
+
+Frontend Mentor challenge at the request of the DeveDobro team, for the purposes of a skill evaluation quest.
+
+### Challenge
+
+Apply the knowledge obtained through the available classes, with the objective of structuring the project as close as possible to the example.
+
+### Link
+
+[Solution](https://beto-luis.github.io/Huddle-landing-page/)
+
+### Applied technologies
 
 <br>
 <li>Semantic HTML5</li>
