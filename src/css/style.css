@@ -57,7 +57,7 @@ main{
     border-radius: 30px;
     cursor: pointer;
     transition: .3s ease-in-out;
-    box-shadow: 1px 1px 10px #000;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
 }
 
 .info .btn-register:hover{
