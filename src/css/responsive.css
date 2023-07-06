@@ -5,6 +5,11 @@
         background-size: contain;
     }
 
+    .header .logo{
+        width: 150px;
+        margin-left: 25px;
+    }
+
     .container{
         display: flex;
         align-items: center;
