@@ -11,6 +11,7 @@ main{
     background-color: var(--Violet);
     background-size: contain;
     max-width: 1440px;
+    min-height: 100vh;
 }
 
 .header .logo{
