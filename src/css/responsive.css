@@ -46,7 +46,8 @@
         font-size: 1.8rem;
     }
 
-    .footer{
+    .footer .social{
+        position: initial;
         display: flex;
         justify-content: center;
     }

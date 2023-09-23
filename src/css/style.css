@@ -21,6 +21,7 @@ main{
 }
 
 .header .logo{
+    position: relative;
     width: 210px;
     margin: 24px 65px;
 }
@@ -38,6 +39,10 @@ main{
     color: #fff;
     margin-top: 45px;
     padding-left: 40px;
+}
+
+.illustration-mochups{
+    width: 85%;
 }
 
 .container .info h1{
@@ -74,18 +79,20 @@ main{
 }
 
  .footer .social{
+    position: absolute;
     display: flex;
-    justify-content: end;
-    padding: 40px;
+    right: 20%;
+    bottom: 10%;
 }
 
 .footer .social a{
+    position: relative;
     display: flex;
     justify-content: center;
     width: 18px;
     height: 18px;
     margin: 8px;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     border-radius: 50%;
     padding: 10px;
     color: #fff;
@@ -94,7 +101,7 @@ main{
 }
 
 .footer .social a:hover{
-    border: 1px solid var(--Soft-Magenta);
+    border: 2px solid var(--Soft-Magenta);
     color: var(--Soft-Magenta);
 }
 
