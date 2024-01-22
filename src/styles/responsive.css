@@ -1,0 +1,76 @@
+@media screen and (max-width: 1160px) {
+  body {
+    background: url("../images/bg-mobile.svg") top no-repeat var(--primary-dark);
+    background-size: contain;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  .illustration-container,
+  .content-container {
+    width: 100%;
+  }
+
+  .illustration-container {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .ilustration {
+    width: 500px;
+  }
+
+  .content-container {
+    align-items: center;
+    padding-bottom: 50px;
+  }
+
+  .social-networks {
+    position: initial;
+  }
+
+  #text {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  #title {
+    text-align: center;
+  }
+
+  #text {
+    text-align: center;
+  }
+
+  #register {
+    width: 60%;
+    transform: initial;
+  }
+
+  .social-networks {
+    transform: translateY(50%);
+  }
+}
+
+@media screen and (max-width: 455px) {
+  #logo {
+    width: 160px;
+  }
+
+  .ilustration {
+    width: 270px;
+  }
+
+  #title {
+    font-size: 27px;
+    line-height: 48px;
+  }
+
+  #text {
+    font-size: 12px;
+    line-height: 24px;
+  }
+}

@@ -1,0 +1,154 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background: url("../images/bg-desktop.svg") center center no-repeat var(--primary-dark);
+  background-size: cover;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+#logo {
+  position: relative;
+  left: 5%;
+  padding-top: 55px;
+}
+
+main {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: calc(100% - 124px);
+}
+
+.illustration-container,
+.content-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.illustration-container {
+  align-items: center;
+  width: 55%;
+}
+
+.content-container{
+  flex-direction: column;
+  width: 45%;
+}
+
+.illustration {
+  width: 85%;
+  user-select: none;
+}
+
+#title {
+  font-size: 43px;
+  line-height: 70px;
+}
+
+#text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 35px;
+}
+
+#register {
+  position: relative;
+  width: 195px;
+  height: 55px;
+  background: white;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 3px 3px 15px #3c2c63;
+  overflow: hidden;
+}
+
+#register::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s ease-in-out;
+}
+
+#register:hover::before {
+  color: #fff;
+  background: var(--primary-light);
+}
+
+#register button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: var(--primary-dark);
+  transition: color 0.15s ease-out;
+}
+
+#register:hover button {
+  color: white;
+}
+
+.social-networks {
+  position: absolute;
+  display: flex;
+  right: 20%;
+  bottom: 10%;
+}
+
+.social-networks li {
+  margin: 0 15px;
+}
+
+.social-networks a {
+  position: relative;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: border-color 0.2s ease-out;
+}
+
+.social-networks li:hover a {
+  border-color: var(--primary-light);
+  cursor: pointer;
+}
+
+.social-networks i {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 22px;
+  height: 22px;
+  transition: filter 0.05s ease-out;
+}
+
+.social-networks li:hover i {
+  filter: invert(15%) sepia(40%) saturate(2599%) hue-rotate(240deg) brightness(100%) contrast(100%);
+}
+
+.social-networks li:nth-child(3) i {
+  width: 27px;
+  height: 27px;
+}
+
+#title,
+#text,
+#register {
+  transform: translateY(-50%);
+}
